@@ -18,10 +18,9 @@ variable "network_interface" {
 
 variable "associate_with_private_ip" {
     description = "Private IP to associate with EIP."
-    type = string
+    type = map(string)
     default = null
 }
-
 variable "tags" {
     description = "Tags to associate with ENI."
     type = map(string)
