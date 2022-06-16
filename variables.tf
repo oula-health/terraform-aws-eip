@@ -18,7 +18,7 @@ variable "network_interface" {
 
 variable "associate_with_private_ip" {
     description = "Private IP to associate with EIP."
-    type = map(string)
+    type = string
     default = null
 }
 variable "tags" {
