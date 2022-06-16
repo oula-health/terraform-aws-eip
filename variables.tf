@@ -6,7 +6,7 @@ variable "vpc" {
 
 variable "instance" {
     description = "Instance to associate with EIP."
-    type = map(string)
+    type = string
     default = null
 }
 
