@@ -1,9 +1,3 @@
-variable "vpc" {
-    description = "Whether the EIP is in a VPC."
-    type = bool
-    default = true
-}
-
 variable "instance" {
     description = "Instance to associate with EIP."
     type = string
